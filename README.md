@@ -5,4 +5,4 @@
 
 [Project: Recipes | The Odin Project](https://www.theodinproject.com/lessons/foundations-recipes)
 
-An exercise to make a recipe
+An exercise to make a recipe.
