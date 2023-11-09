@@ -1,0 +1,110 @@
+html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+body {
+  justify-content: center;
+  display: flex;
+  background-color: #777;
+}
+
+.main-container {
+  width: 50ch;
+  justify-content: center;
+  box-shadow: 10px 10px #fff;
+  border: 1px solid #433a3a;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: #8B6C6C;
+  cursor: default;
+  margin: 0;
+}
+
+.title>h2 {
+  margin: 1rem auto;
+  font-size: 2rem;
+  color: #fff;
+  border: 1px #fff dashed;
+}
+
+.title>h2::selection {
+  background-color: transparent;
+}
+
+.title>h2:hover {
+  opacity: 0.7;
+  border-style: solid;
+}
+
+.recipe {
+  height: 69px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 150ms;
+}
+
+.recipe:hover {
+  opacity: 0.7;
+  color: #000;
+}
+
+.recipe>p {
+  margin: 0;
+
+}
+
+.the-link {
+  color: white;
+  text-decoration: none;
+}
+
+.the-link:visited {
+  color: white;
+}
+
+.recipe.one {
+  background-color: #a18383;
+}
+
+.recipe.two {
+  background-color: #c0a0a0;
+}
+
+.recipe.three {
+  background-color: #d3b3b3;
+}
+
+.info {
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #eccaca;
+}
+
+.info:hover {
+  opacity: 0.7;
+}
+
+.info>a>button {
+  padding: 10px;
+  border: 0;
+  background-color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.info>a>button::selection {
+  color: #000;
+}
